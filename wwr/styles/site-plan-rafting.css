@@ -12,7 +12,7 @@ Fonts are separated by a & */
   --accent3-color:#cdc58e;
   /* change the values below to your chosen font(s) */
   --heading-font: "Rubik Moonrocks";
-  --paragraph-font: Source Sans Pro, Helvetica, sans-serif;
+  --paragraph-font: "Source Sans Pro", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: black;  /* headlines on a white background */ 
