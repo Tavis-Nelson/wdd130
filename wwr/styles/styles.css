@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Source+Sans+Pro:ital,wght@1,600&display=swap');
 div  {
     max-width: 1600px;
 }
@@ -6,9 +7,13 @@ div  {
     max-width: 1600px;
     margin: 0 auto;
 }
+#logo_link { 
+     padding-top: 5px;
+}
 nav a{
     text-align: center;
     color: #57cc99;
+    padding: 35px;
 }
 nav {
     text-align: center;
@@ -27,6 +32,9 @@ main section  {
 }
 body {
     background-color: #22577a; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #22577a(20,30,13, .7);
@@ -40,6 +48,9 @@ nav a:hover {
     background-color: #22577a;
     color: #76cfd0;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #22577a;
@@ -50,22 +61,34 @@ nav a:hover {
 }
 .msg  {
     background-color: #22577a;
+    padding: 35px;
 }
 footer  {
     background-color: #22577a;
     color:#cdc58e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #57cc99;
+    font-family:"Rubik Moonrocks","Papyrus" , sans-serif;
+    font-size: at 50px;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 h4  {
     color: #57cc99;
 }
 .msg h2  {
     color: #94f0a9;
+    font-family:"Source Sans Pro","Papyrus" sans-serif;
 }
 .msg p   {
      color: #94f0a9;
+     line-height: 1.5em;
+     padding-bottom: 15px;
 }
 footer a   {
     color: #cdc58e;
@@ -79,6 +102,7 @@ footer a:hover    {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img  {
     width: 100%;
@@ -88,4 +112,16 @@ footer p {
 }    
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img  {
+    padding-top: 15px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
