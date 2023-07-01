@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Oswald:wght@500&display=swap');
+div  {
+    max-width: 1600px;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#logo_link { 
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#background {
+    height: 725px;
+  color: #0A1045   ;
+  
+}
