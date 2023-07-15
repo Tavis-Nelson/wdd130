@@ -139,4 +139,28 @@ footer .social img  {
     font-family:"Geologica", sans-serif;
     color: #A30000;
     font-size: 30px;
+.SR {
+    font-family:"Geologica", sans-serif;
+    color: #A30000;
+    font-size: 30px;
 }
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0A1045;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #A30000;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
