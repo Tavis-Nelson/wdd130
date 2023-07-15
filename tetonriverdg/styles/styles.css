@@ -52,6 +52,11 @@ text-align: left;
 }
 p2 {
     color:#ffff;
+    font: size 20px;
+}
+p3 {
+    color:#ffff;
+    font: size 20px;
 }
 
 
@@ -139,11 +144,16 @@ footer .social img  {
     font-family:"Geologica", sans-serif;
     color: #A30000;
     font-size: 30px;
+}
 .SR {
     font-family:"Geologica", sans-serif;
     color: #A30000;
     font-size: 30px;
 }
+.PVO {
+    font-family:"Geologica", sans-serif;
+    color: #A30000;
+    font-size: 30px;
 }
 /* width */
 ::-webkit-scrollbar {
